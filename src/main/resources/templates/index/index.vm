@@ -1,0 +1,751 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>walk - 永不止步</title>
+<meta name="keywords" content="记事,生活,图片" />
+<meta name="description" content="walkon（weilu.walkon.com）" />
+##<link href="http://static.itouxian.com/css/itouxian.css?20120503" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+##<script src="http://static.itouxian.com/js/itouxian.js?20120503" type="text/javascript"></script>
+##<script src="http://static.itouxian.com/plugin/ui/jquery-itouxian-ui-2.1.custom.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+<script type="text/javascript">
+BAIDU_CLB_preloadSlots("330179","330454","330180","381414","381415","381416","381417","381419","381420");
+
+</script>
+</head>
+<body>
+<div class="itouxian-header-holder">
+	<div class="header">
+		<div class="logo"><a href="http://localhost:8080/index" target="_self">Walk On</a></div>
+		<div class="menu">
+			<a href="/index" class="selected">首页</a>
+			<a href="/words">文字记事</a>
+			<a href="/pictures">图片记事</a>
+			<a href="/discovery">发现</a>
+		</div>
+	</div>
+</div>
+<div class="itouxian-main-holder">
+	<div class="main">
+		<div class="content">
+			<!-- google_ad_section_start -->
+	<script type="text/javascript">
+		function setShare(title, url) {
+			jiathis_config.title = title;
+			jiathis_config.url = url;
+		}
+		var jiathis_config = {}
+	</script>  
+	<div class="content-main-box" onmouseover="setShare('真·会玩儿 （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100839');">
+		<div class="avatar"><a href="/shuishui"><img src="http://img1.itouxian.com/2015/5/avatar/1430568278591.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100839)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/shuishui">喵喵水水</a> 发表于 2017-02-24 14:26:32
+				</div>
+				<h1><a href="/article/100839" target="_blank">真·会玩儿</a></h1>
+			</div>
+			<div class="details-more"><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx3.sinaimg.cn/mw690/707c5757gy1fcv5tdrsatg20dc07f1l0.gif" alt="真·会玩儿" /></a></p><p>&nbsp;</p><p>你们不管我了哈~我那就回家了哈~~</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx4.sinaimg.cn/mw690/8e7e7e31ly1fcz6c5bhahg20bo06kqve.gif" alt="真·会玩儿" /></a></p><p>&nbsp;</p><p>猫和老鼠既视感</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx2.sinaimg.cn/mw690/006D2xVlly1fcy0i7nv4vg308v0avkjp.gif" alt="真·会玩儿" /></a></p><p>&nbsp;</p><p>秋刀鱼的滋味，猫跟你都想了解</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww1.sinaimg.cn/mw690/6e232a81jw1f9bmfzhguug207307vu0x.gif" alt="真·会玩儿" /></a></p><p>&nbsp;</p><p>&nbsp;<a href="http://www.itouxian.com" target="_blank"><img src="http://s1.dwstatic.com/group1/M00/D0/7F/cb65a0bb0404db52bd203e5c882eccf8.jpg" alt="真·会玩儿" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://s1.dwstatic.com/group1/M00/D5/9D/e87a07c8cd5bb4e7b3e91c69fad788f3.jpg" alt="真·会玩儿" /></a></p><p>&nbsp;</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://s1.dwstatic.com/group1/M00/BD/8B/1d92bb8b7b52fd39822cc4830b4a2948.jpg" alt="真·会玩儿" /></a></p><div id="article_more_100839" class="more-bg"><a href="/article/100839" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100839)">7 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100839,1)">4 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100839,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100839" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('这个入雪我给满分！ ​​​表情很淡定！ （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100764');">
+		<div class="avatar"><a href="/23364"><img src="http://img1.itouxian.com/2015/5/avatar/1430484664954.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100764)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23364">君子喵</a> 发表于 2017-02-06 12:43:36
+				</div>
+				<h1><a href="/article/100764">这个入雪我给满分！ ​​​表情很淡定！</a></h1>
+			</div>
+			<div class="details"><p><a href="http://www.itouxian.com/article/100764"><img alt="这个入雪我给满分！ ​​​表情很淡定！" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2017/2/images/1486356188844.jpg" /></a></p>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100764)">1 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100764,1)">8 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100764,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100764" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('冷知识（四十二）搓搓手指就冒烟儿的酷技巧 （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100763');">
+		<div class="avatar"><a href="/shuishui"><img src="http://img1.itouxian.com/2015/5/avatar/1430568278591.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100763)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/shuishui">喵喵水水</a> 发表于 2017-02-05 22:01:20
+				</div>
+				<h1><a href="/article/100763">冷知识（四十二）搓搓手指就冒烟儿的酷技巧</a></h1>
+			</div>
+			<div class="details"><p>把火柴盒的磷面那一条剪下，对折后放在小圆盘里充分燃烧后，用大拇指和食指中指等几个指头肚在圆盘上的化合物蹭一蹭，然后就大功告成了！</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww4.sinaimg.cn/mw690/c2adb464jw1ecef8jq7sog20b4069x6p.gif" alt="冷知识（四十二）搓搓手指就冒烟儿的酷技巧" /></a></p><p>还没试过，大过年的，只有我们研究僧在做实验，连火柴都没地儿买~T_T</p>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100763)">4 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100763,1)">4 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100763,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100763" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('主人趁着喵在专心舔爪子的时候，换成了自己的手。。。 （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100717');">
+		<div class="avatar"><a href="/23364"><img src="http://img1.itouxian.com/2015/5/avatar/1430484664954.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100717)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23364">君子喵</a> 发表于 2017-01-13 14:34:39
+				</div>
+				<h1><a href="/article/100717">主人趁着喵在专心舔爪子的时候，换成了自己的手。。。</a></h1>
+			</div>
+			<div class="details"><p><a href="http://www.itouxian.com/article/100717"><img alt="主人趁着喵在专心舔爪子的时候，换成了自己的手。。。" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2017/1/images/1484289253219.gif" /></a></p>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100717)">4 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100717,1)">11 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100717,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100717" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('不戴眼镜的妈妈好漂亮 （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100735');">
+		<div class="avatar"><a href="/33895"><img src="http://static.itouxian.com/images/avatar/21.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100735)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/33895">锦瑟</a> 发表于 2017-01-21 15:03:45
+				</div>
+				<h1><a href="/article/100735" target="_blank">不戴眼镜的妈妈好漂亮</a></h1>
+			</div>
+			<div class="details-more"><p>- 妈妈，你别戴眼镜了，你把眼睛摘下来</p><p>-哇哦，妈妈，你不戴眼镜好漂亮！！</p><p>- 是吗？哈哈哈哈~~~</p><p>- 嗯，妈妈，你真的好漂亮啊，就像我一样漂亮了</p><p>- 额。。。。</p><p>&nbsp;</p><p>-陈小曦，你好像该打疫苗了(翻疫苗本，还早，要2月份)</p><p>- 不！妈妈，我不要打疫苗！！！（装哭状）</p><p>- 不是现在打啦</p><p>- 哦，那要明天打吗？啊啊啊啊</p><p>- 不是明天</p><p>- 那再明天呢？啊啊 啊啊</p><p>- 也不是后天</p><p>- 那什么时候去啊?</p><p>- 等你再长大一点</p><p>- 哎╮(╯▽╰)╭吓死我了</p><p>- 。。。。</p><div id="article_more_100735" class="more-bg"><a href="/article/100735" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100735)">0 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100735,1)">6 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100735,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100735" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('卧槽，别惹我，说起来你别害怕。我疯起来自己都怕！ （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100738');">
+		<div class="avatar"><a href="/23364"><img src="http://img1.itouxian.com/2015/5/avatar/1430484664954.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100738)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23364">君子喵</a> 发表于 2017-01-22 18:50:57
+				</div>
+				<h1><a href="/article/100738" target="_blank">卧槽，别惹我，说起来你别害怕。我疯起来自己都怕！</a></h1>
+			</div>
+			<div class="details-more"><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx3.sinaimg.cn/mw690/81f5560agy1fbzcmm8kl2g207f05kh14.gif" alt="卧槽，别惹我，说起来你别害怕。我疯起来自己都怕！" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx2.sinaimg.cn/mw690/81f5560agy1fbzcmihq70g208m08w000.gif" alt="卧槽，别惹我，说起来你别害怕。我疯起来自己都怕！" /></a></p><div id="article_more_100738" class="more-bg"><a href="/article/100738" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100738)">0 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100738,1)">3 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100738,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100738" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('好萌~ （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100728');">
+		<div class="avatar"><a href="/23364"><img src="http://img1.itouxian.com/2015/5/avatar/1430484664954.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100728)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23364">君子喵</a> 发表于 2017-01-18 08:06:26
+				</div>
+				<h1><a href="/article/100728" target="_blank">好萌~</a></h1>
+			</div>
+			<div class="details-more"><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx3.sinaimg.cn/mw690/6927e7a5ly1fbtpj4fe47g208w08whdv.gif" alt="好萌~" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx1.sinaimg.cn/mw690/6927e7a5ly1fbtpj7hcuag208w08wnpe.gif" alt="好萌~" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx2.sinaimg.cn/mw690/6927e7a5ly1fbtpjbvmo6g208w08we84.gif" alt="好萌~" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx4.sinaimg.cn/mw690/6927e7a5ly1fbtpjg56q1g208w08w7wk.gif" alt="好萌~" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx1.sinaimg.cn/mw690/6927e7a5ly1fbtpjhzm2ug208w08wkjl.gif" alt="好萌~" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx4.sinaimg.cn/mw690/6927e7a5ly1fbtpjkt6brg208w08wkjm.gif" alt="好萌~" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx1.sinaimg.cn/mw690/6927e7a5ly1fbtpjow9deg208w08w1l0.gif" alt="好萌~" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx3.sinaimg.cn/mw690/6927e7a5ly1fbtpjuh2pfg208w08wqv9.gif" alt="好萌~" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://wx1.sinaimg.cn/mw690/6927e7a5ly1fbtpk03o6lg208w08wu11.gif" alt="好萌~" /></a></p><div id="article_more_100728" class="more-bg"><a href="/article/100728" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100728)">1 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100728,1)">4 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100728,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100728" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('医生不说那句话，我也觉得有道理的…… （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100680');">
+		<div class="avatar"><a href="/23281"><img src="http://img1.itouxian.com/2015/3/avatar/1427703062970.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100680)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23281">木</a> 发表于 2017-01-03 17:14:36
+				</div>
+				<h1><a href="/article/100680">医生不说那句话，我也觉得有道理的……</a></h1>
+			</div>
+			<div class="details"><p><a href="http://www.itouxian.com/article/100680"><img alt="医生不说那句话，我也觉得有道理的……" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2017/1/images/1483434856159.jpg" /></a></p>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100680)">4 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100680,1)">9 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100680,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100680" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('编号 100686 （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100686');">
+		<div class="avatar"><a href="/23281"><img src="http://img1.itouxian.com/2015/3/avatar/1427703062970.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100686)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23281">木</a> 发表于 2017-01-04 13:17:32
+				</div>
+				
+			</div>
+			<div class="details-more"><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww3.sinaimg.cn/large/8245bf01jw1fbee36nbjaj20dw9rhqv5.jpg" alt="" /></a></p><div id="article_more_100686" class="more-bg"><a href="/article/100686" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100686)">3 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100686,1)">7 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100686,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100686" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('不知道你们怎么样，反正我小时候比这还淘~ （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100671');">
+		<div class="avatar"><a href="/shuishui"><img src="http://img1.itouxian.com/2015/5/avatar/1430568278591.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100671)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/shuishui">喵喵水水</a> 发表于 2016-12-30 23:39:08
+				</div>
+				<h1><a href="/article/100671" target="_blank">不知道你们怎么样，反正我小时候比这还淘~</a></h1>
+			</div>
+			<div class="details-more"><p>&nbsp;呆毛无误</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww1.sinaimg.cn/mw600/0062yvmejw1fb4ci674l9j30ii0ii0xu.jpg" alt="不知道你们怎么样，反正我小时候比这还淘~" /></a></p><p>&nbsp;</p><p>营销面试妙招</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww3.sinaimg.cn/mw600/6e53d84fgw1fb5nojj95tj20gg099abi.jpg" alt="不知道你们怎么样，反正我小时候比这还淘~" /></a></p><p>不知道你们怎么样，反正我小时候比这还淘~</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww2.sinaimg.cn/mw690/4165f919gw1f54g70r6uxg207l0424r2.gif" alt="不知道你们怎么样，反正我小时候比这还淘~" /></a></p><p>5只鼠鼠的脸部组成了一朵花</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://s1.dwstatic.com/group1/M00/DF/E7/6f44350b0c3724608d8687820e47b2c4.jpg" alt="不知道你们怎么样，反正我小时候比这还淘~" /></a></p><p>还能这么玩~</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww4.sinaimg.cn/mw690/a512954fjw1fb1533slxlg208l05su0x.gif" alt="不知道你们怎么样，反正我小时候比这还淘~" /></a></p><p>午餐神器<a href="http://www.itouxian.com" target="_blank"><img src="http://ww4.sinaimg.cn/mw690/92e8647ajw1fb57r709j3g208808akck.gif" alt="不知道你们怎么样，反正我小时候比这还淘~" /></a></p><p>&nbsp;</p><p>&nbsp;</p><div id="article_more_100671" class="more-bg"><a href="/article/100671" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100671)">7 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100671,1)">1 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100671,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100671" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('编号 100618 （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100618');">
+		<div class="avatar"><a href="/23281"><img src="http://img1.itouxian.com/2015/3/avatar/1427703062970.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100618)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23281">木</a> 发表于 2016-12-11 19:56:37
+				</div>
+				
+			</div>
+			<div class="details"><p><a href="http://www.itouxian.com" target="_blank"><img src="https://ws1.sinaimg.cn/mw1024/891c9115jw1exkmqbcfwrg20bu06oe85.gif" alt="" /></a></p>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100618)">6 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100618,1)">7 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100618,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100618" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('编号 100622 （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100622');">
+		<div class="avatar"><a href="/23281"><img src="http://img1.itouxian.com/2015/3/avatar/1427703062970.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100622)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23281">木</a> 发表于 2016-12-13 10:21:47
+				</div>
+				
+			</div>
+			<div class="details-more"><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww1.sinaimg.cn/mw690/6b04ac95gw1falqvxnwmrj21ck2uq1cx.jpg" alt="" /></a></p><div id="article_more_100622" class="more-bg"><a href="/article/100622" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100622)">5 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100622,1)">5 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100622,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100622" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('编号 100626 （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100626');">
+		<div class="avatar"><a href="/23281"><img src="http://img1.itouxian.com/2015/3/avatar/1427703062970.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100626)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23281">木</a> 发表于 2016-12-15 22:08:15
+				</div>
+				
+			</div>
+			<div class="details"><p><a href="http://www.itouxian.com" target="_blank"><img src="https://ws2.sinaimg.cn/mw690/92e8647ajw1farbyebb0gg206w03w1kz.gif" alt="" /></a></p>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100626)">4 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100626,1)">6 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100626,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100626" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('遇到了不正经的萝卜怎么办？ （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100563');">
+		<div class="avatar"><a href="/shuishui"><img src="http://img1.itouxian.com/2015/5/avatar/1430568278591.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100563)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/shuishui">喵喵水水</a> 发表于 2016-11-25 18:52:29
+				</div>
+				<h1><a href="/article/100563" target="_blank">遇到了不正经的萝卜怎么办？</a></h1>
+			</div>
+			<div class="details-more"><p>爸爸！爸爸！ 爸。。爸。。。。。。。。爸。。。。。。。。我是亲生的么？</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww1.sinaimg.cn/mw690/92e8647ajw1fa322ez5ngg208p04xb2a.gif" alt="遇到了不正经的萝卜怎么办？" /></a></p><p>送给爱吃东西的你们</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww2.sinaimg.cn/mw690/70f86863gw1fa279om36vg206p060x6r.gif" alt="遇到了不正经的萝卜怎么办？" /><img src="http://ww2.sinaimg.cn/mw690/70f86863gw1fa2795vwwcg208c04ob2c.gif" alt="遇到了不正经的萝卜怎么办？" /><img src="http://ww2.sinaimg.cn/mw690/70f86863gw1fa278parezg207p05o4qq.gif" alt="遇到了不正经的萝卜怎么办？" /><img src="http://ww3.sinaimg.cn/mw690/70f86863gw1fa277z6gq5g207r05sx6p.gif" alt="遇到了不正经的萝卜怎么办？" /><img src="http://ww2.sinaimg.cn/mw690/70f86863gw1fa278hfz84g205x04gqv5.gif" alt="遇到了不正经的萝卜怎么办？" /><img src="http://ww1.sinaimg.cn/mw690/70f86863gw1fa277nxv0vg207z03x7wi.gif" alt="遇到了不正经的萝卜怎么办？" /><img src="http://ww4.sinaimg.cn/mw690/70f86863gw1fa277d1u1vg208b054b29.gif" alt="遇到了不正经的萝卜怎么办？" /><img src="http://ww2.sinaimg.cn/mw690/70f86863gw1fa277738i3g208404qe81.gif" alt="遇到了不正经的萝卜怎么办？" /></a></p><p>遇到了不正经的萝卜怎么办？</p><p><a href="http://www.itouxian.com/article/100563"><img alt="遇到了不正经的萝卜怎么办？" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1480071104902.jpg" /></a></p><p><a href="http://www.itouxian.com/article/100563"><img alt="遇到了不正经的萝卜怎么办？" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1480071110509.jpg" /></a></p><p><a href="http://www.itouxian.com/article/100563"><img alt="遇到了不正经的萝卜怎么办？" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1480071114588.jpg" /></a></p><div id="article_more_100563" class="more-bg"><a href="/article/100563" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100563)">3 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100563,1)">3 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100563,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100563" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('怪兽来我家. （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100557');">
+		<div class="avatar"><a href="/33579"><img src="http://img1.itouxian.com/2014/2/avatar/1393564271921.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100557)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/33579">老太婆不吃棉花糖</a> 发表于 2016-11-24 14:01:57
+				</div>
+				<h1><a href="/article/100557" target="_blank">怪兽来我家.</a></h1>
+			</div>
+			<div class="details-more"><p>&nbsp;</p><p><a href="http://www.itouxian.com/article/100557"><img alt="怪兽来我家." title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1479967032313.jpg" /></a></p><div id="article_more_100557" class="more-bg"><a href="/article/100557" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100557)">13 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100557,1)">2 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100557,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100557" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('听说你有强迫症 （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100535');">
+		<div class="avatar"><a href="/23364"><img src="http://img1.itouxian.com/2015/5/avatar/1430484664954.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100535)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23364">君子喵</a> 发表于 2016-11-16 11:19:51
+				</div>
+				<h1><a href="/article/100535" target="_blank">听说你有强迫症</a></h1>
+			</div>
+			<div class="details-more"><p><a href="http://www.itouxian.com/article/100535"><img alt="听说你有强迫症" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1479266332716.gif" /></a></p><p><a href="http://www.itouxian.com/article/100535"><img alt="听说你有强迫症" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1479266336714.gif" /></a></p><p><a href="http://www.itouxian.com/article/100535"><img alt="听说你有强迫症" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1479266339993.gif" /></a></p><p><a href="http://www.itouxian.com/article/100535"><img alt="听说你有强迫症" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1479266342762.gif" /></a></p><p><a href="http://www.itouxian.com/article/100535"><img alt="听说你有强迫症" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1479266345838.gif" /></a></p><p><a href="http://www.itouxian.com/article/100535"><img alt="听说你有强迫症" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1479266354422.gif" /></a></p><p><a href="http://www.itouxian.com/article/100535"><img alt="听说你有强迫症" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1479266364954.gif" /></a></p><p><a href="http://www.itouxian.com/article/100535"><img alt="听说你有强迫症" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1479266367789.gif" /></a></p><p><a href="http://www.itouxian.com/article/100535"><img alt="听说你有强迫症" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/11/images/1479266370876.gif" /></a></p><div id="article_more_100535" class="more-bg"><a href="/article/100535" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100535)">3 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100535,1)">3 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100535,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100535" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('Vincent Bal | 影子的创意 （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100543');">
+		<div class="avatar"><a href="/23281"><img src="http://img1.itouxian.com/2015/3/avatar/1427703062970.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100543)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23281">木</a> 发表于 2016-11-18 10:10:01
+				</div>
+				<h1><a href="/article/100543" target="_blank">Vincent Bal | 影子的创意</a></h1>
+			</div>
+			<div class="details-more"><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww4.sinaimg.cn/large/6c3e6b13gw1f9uta4uqorj20gm0eogou.jpg" alt="Vincent Bal | 影子的创意" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww2.sinaimg.cn/large/6c3e6b13gw1f9uta6ex5kj20gm0gmado.jpg" alt="Vincent Bal | 影子的创意" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww2.sinaimg.cn/large/6c3e6b13gw1f9uta86yxxj20gl0gkad3.jpg" alt="Vincent Bal | 影子的创意" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww3.sinaimg.cn/large/6c3e6b13gw1f9uta7wbjbj20gl0gmdj3.jpg" alt="Vincent Bal | 影子的创意" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww1.sinaimg.cn/large/6c3e6b13gw1f9uta8efk3j20gn0gl76r.jpg" alt="Vincent Bal | 影子的创意" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww4.sinaimg.cn/large/6c3e6b13gw1f9uta95bljj20gm0gldi4.jpg" alt="Vincent Bal | 影子的创意" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww4.sinaimg.cn/large/6c3e6b13gw1f9uta9whqaj20gm0glwhy.jpg" alt="Vincent Bal | 影子的创意" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww1.sinaimg.cn/large/6c3e6b13gw1f9utab7d1lj20gl0gl422.jpg" alt="Vincent Bal | 影子的创意" /></a></p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww4.sinaimg.cn/large/6c3e6b13gw1f9utabyxswj20gm0gkjuf.jpg" alt="Vincent Bal | 影子的创意" /></a></p><div id="article_more_100543" class="more-bg"><a href="/article/100543" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100543)">9 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100543,1)">10 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100543,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100543" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('陈小曦生病了 （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100477');">
+		<div class="avatar"><a href="/33895"><img src="http://static.itouxian.com/images/avatar/21.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100477)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/33895">锦瑟</a> 发表于 2016-11-12 13:08:31
+				</div>
+				<h1><a href="/article/100477" target="_blank">陈小曦生病了</a></h1>
+			</div>
+			<div class="details-more"><p>肺炎，整个星期奔波在医院和家里，陈小曦第一次打吊瓶</p><p>打完快拔针的时候</p><p>- 妈妈，拔针疼不疼啊？</p><p>- 拔针不是很疼，就疼一下下，好吗?</p><p>- 妈妈，你给我找个拔针不疼的医生吧，扎针的时候已经疼了一下下了，拔针的时候，我坚持不住了，好吗妈妈，你给我找个拔针不疼的医生好吗？</p><p>&nbsp;</p><p>自己疼的眼泪刚擦干净，来了个幼儿园里比她小的小朋友，叫康康</p><p>- 康康，你别哭了，你看我都没哭，我告诉你，就疼一下下哈，然后就不疼了，你看我也打针呢</p><p>&nbsp;</p><p>快好了的时候，妈妈要去上班</p><p>- 妈妈上午不去，下午去上班，好吗？</p><p>- 好的妈妈</p><p>中午吃完饭</p><p>- 妈妈去上班了哈陈小曦</p><p>- 不要妈妈，你不要去上班</p><p>- 妈妈不是告诉你了么，上午不上班，下午去上班</p><p>- 可是妈妈，现在是中午，睡完午觉才是下午，你不是答应我了吗，下午再去上班，好吗妈妈</p><p>- 嗯。。。</p><p style="text-align: right">&mdash;&mdash;陈小曦3岁10个多月</p><div id="article_more_100477" class="more-bg"><a href="/article/100477" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100477)">1 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100477,1)">8 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100477,-1)">1 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100477" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('甩水的那两笔神了！ （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100430');">
+		<div class="avatar"><a href="/23364"><img src="http://img1.itouxian.com/2015/5/avatar/1430484664954.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100430)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/23364">君子喵</a> 发表于 2016-10-20 14:21:37
+				</div>
+				<h1><a href="/article/100430">甩水的那两笔神了！</a></h1>
+			</div>
+			<div class="details"><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww3.sinaimg.cn/mw690/86ddbc53gw1f8w9o5r7e1g206x098u1f.gif" alt="甩水的那两笔神了！" /></a></p>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100430)">3 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100430,1)">6 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100430,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100430" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="content-main-box" onmouseover="setShare('一起做个游戏~ （爱偷闲 iTouxian.com）', 'http://www.itouxian.com/article/100435');">
+		<div class="avatar"><a href="/shuishui"><img src="http://img1.itouxian.com/2015/5/avatar/1430568278591.jpg" /></a></div>
+		<div class="corner"></div>
+		<div class="contentbox">
+			<div class="title">
+				<div>
+					<span>
+						<a href="javascript:void(0)" onclick="IM_article_savefavourite(1,100435)">收藏</a> - 
+						<a id="ckepop" href="http://www.jiathis.com/share/?uid=893353" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享</a>
+					</span>
+					<a href="/shuishui">喵喵水水</a> 发表于 2016-10-20 23:35:58
+				</div>
+				<h1><a href="/article/100435" target="_blank">一起做个游戏~</a></h1>
+			</div>
+			<div class="details-more"><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww2.sinaimg.cn/mw690/92fb1e1fgw1f1iqw6cxgyg20d906i7wi.gif" alt="一起做个游戏~" /></a></p><p>妈妈说，这就是你现在脸很平的原因。。。。<a href="http://www.itouxian.com" target="_blank"><img src="http://ww2.sinaimg.cn/mw1024/62faf073gw1f1uct6t07og20aj05skjt.gif" alt="一起做个游戏~" /></a></p><p>自作孽吧~~~</p><p><a href="http://www.itouxian.com" target="_blank"><img src="http://ww2.sinaimg.cn/mw690/6e9f0cbbgw1f2f1s9rp5eg208m08w7wq.gif" alt="一起做个游戏~" /></a></p><p>嗯，我知道你一定会看到最后的。</p><p><a href="http://www.itouxian.com/article/100435"><img alt="一起做个游戏~" title="爱偷闲（www.itouxian.com）" src="http://img1.itouxian.com/2016/10/images/1476976942847.jpg" /></a></p><p>兔先生，这是我们的证人最后见到您太太的地方。</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>因为有了前两张图的铺垫，看第三张图的时候是不是更加的担心厨师小哥不小心切到自己呢？如果吧第三张放在最前面，就不会那么担心，而仅仅是感叹&ldquo;死国矣&rdquo;呢~~</p><p>说到&ldquo;死国矣&rdquo;，附上原文：</p><p>陈胜曰: 今亡亦死，举大计亦死，等死，死国可乎？<br />吴广曰: 死国矣。<br />陈胜: 别用日语夸我 。（via松鼠濑尿虾）</p><div id="article_more_100435" class="more-bg"><a href="/article/100435" target="_blank" class="more-bg-text">点此查看全部内容</a></div>
+			</div>
+			<div class="info">
+				<div class="comment">
+					<span style="cursor:pointer;" onclick="IM_article_review_list(100435)">4 评论</span>
+				</div>
+				<span class="up" onclick="IM_article_assess(this,100435,1)">4 顶</span> 
+				<span class="down" onclick="IM_article_assess(this,100435,-1)">0 踩</span>
+				<span class="space">&nbsp;</span>
+			</div>
+			<div id="article_review_100435" class="comments" style="display:none;"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<script type="text/javascript">
+		function setShare(title, url) {
+			jiathis_config.title = title;
+			jiathis_config.url = url;
+		}
+		var jiathis_config = {}
+	</script>  
+				<a href="/?page=2"><div class="content-main-more">点此查看更多美好事、搞笑事、蛋疼事...</div></a>
+			<!-- google_ad_section_end -->
+		</div>
+		<div class="sidebar">
+			<div class="sidebar-box">	<div class="author-info">
+		<div class="add">
+			<input type="button" class="sgreen-button" value="+ 加关注" onclick="IM_user_savebuddy(0,0)" />
+		</div>
+		<div class="avatar"><a href="/20898"><img src="http://img1.itouxian.com/2012/11/avatar/1354249354336.jpg" /></a></div>
+		<h2><a href="/20898">糗事大百科</a></h2>
+		<div>来自：糗事欢乐星</div>
+		
+		<div>自述：关注下吧，又不会怀孕！</div>
+		<div class="height10"></div>
+		<div class="user-data">
+			<ul>
+				<a href="/20898/follow"><li class="lightblue-button"><span>0</span>关注</li></a>
+				<a href="/20898/fans"><li class="lightblue-button"><span>324</span>粉丝</li></a>
+				<a href="/20898"><li class="lightblue-button"><span>200</span>闲文</li></a>
+			</ul>
+		</div>
+		<div class="height10"></div>
+		<div class="data"><a href="/20898" class="common-icon home-icon">家在闲人大街 20898 号</a> </div>
+	</div>
+</div>
+<div class="search">
+	<form action="/search/ " target="_blank" onsubmit="var keyword=$('#search_keyword').val();if(keyword){this.action='/search/'+keyword;}else{return false;}">
+		<input type="text" id="search_keyword" class="s-text" onclick="this.select();">
+		<input type="submit" value="搜索" class="s-button">
+	</form>
+</div>
+<div class="sponsors"><script type="text/javascript">BAIDU_CLB_fillSlot("330179");</script></div>			<div class="sidebar-box">	<div class="title">近期热点</div>
+	<ul>
+		
+	</ul>
+</div>
+<div class="sponsors"><script type="text/javascript">BAIDU_CLB_fillSlot("330454");</script></div>			<div class="sidebar-box">	<div class="title">热门关键词</div>
+	<div class="tags">
+		<a href="/tag/%E5%88%9B%E6%84%8F">创意</a><a href="/tag/%E7%94%9F%E6%B4%BB">生活</a><a href="/tag/%E6%90%9E%E7%AC%91">搞笑</a><a href="/tag/%E7%88%B1%E6%83%85">爱情</a><a href="/tag/%E8%AF%AD%E5%BD%95">语录</a><a href="/tag/%E7%B3%97%E4%BA%8B">糗事</a><a href="/tag/%E5%86%B7%E7%AC%91%E8%AF%9D">冷笑话</a><a href="/tag/%E5%9B%A7%E5%9B%BE">囧图</a><a href="/tag/%E7%BE%8E%E5%8F%A5">美句</a><a href="/tag/%E6%81%B6%E6%90%9E">恶搞</a><a href="/tag/%E7%AC%91%E8%AF%9D">笑话</a><a href="/tag/%E8%A7%86%E9%A2%91">视频</a><a href="/tag/%E5%90%9B%E5%AD%90%E5%96%B5">君子喵</a><a href="/tag/%E7%AB%A5%E8%B6%A3">童趣</a><a href="/tag/Gif">Gif</a><a href="/tag/%E7%A5%9E%E5%9B%9E%E5%A4%8D">神回复</a><a href="/tag/%E5%90%90%E6%A7%BD">吐槽</a><a href="/tag/%E7%BE%8E%E5%9B%BE">美图</a><a href="/tag/%E5%AD%A9%E5%AD%90">孩子</a><a href="/tag/%E4%BA%BA%E7%94%9F">人生</a><a href="/tag/%E6%84%9F%E5%8A%A8">感动</a><a href="/tag/%E5%B9%B8%E7%A6%8F">幸福</a><a href="/tag/%E8%80%83%E8%AF%95">考试</a><a href="/tag/%E6%B8%A9%E6%9A%96">温暖</a><a href="/tag/%E5%90%83%E8%B4%A7">吃货</a><a href="/tag/%E6%89%8B%E6%9C%BA">手机</a><a href="/tag/%E9%9D%92%E6%98%A5">青春</a><a href="/tag/%E8%BF%99%E4%B9%9F%E6%98%AF%E4%B8%80%E4%B8%AA%E6%A0%87%E7%AD%BE">这也是一个标签</a><a href="/tag/%E6%88%90%E9%95%BF">成长</a><a href="/tag/%E7%94%B5%E5%BD%B1">电影</a>
+	</div>
+</div>
+			<div class="sidebar-box"><div class="title">友情链接</div>
+<div class="links">
+	<a href="http://hao.360.cn" target="_blank">360安全网址</a>
+	<a href="http://www.hao123.com" target="_blank">Hao123</a>
+	<a href="http://123.sogou.com" target="_blank">搜狗网址</a>
+	<a href="http://www.2345.com" target="_blank">2345网址</a>
+	<a href="http://click.union.jd.com/JdClick/?unionId=5591&t=1&to=http://www.jd.com/" target="_blank">京东商城</a>
+	<a href="http://www.amazon.cn/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.cn%2F&amp;tag=u148-23&amp;linkCode=ur2" target="_blank">亚马逊</a>
+	<a href="http://union.dangdang.com/transfer/transfer.aspx?from=P-264427&backurl=http://www.dangdang.com/" target="_blank">当当网</a>
+	<a href="http://www.u148.net" target="_blank">有意思吧</a>
+	<a href="http://jandan.net" target="_blank">煎蛋</a>
+	<a href="http://www.52souluo.com" target="_blank">我爱搜罗网</a>
+	<a href="http://www.juyouqu.com" target="_blank">巨有趣</a>
+	<a href="http://edu.360.cn/yingyu" target="_blank">每日英语</a>
+</div></div>
+<script language="javascript" type="text/javascript">
+~(function(){
+	var src = ["381414","381415","381416","381417"];
+	var l = src.length;
+	if(l==1){
+		BAIDU_CLB_fillSlot(src[0]);
+	}else if(l>1){
+		var script = Array();
+		for(var i=0,j=l;i<j;i++){
+			var index = Math.floor(Math.random()*l);
+			document.write('<div class="sponsors">');
+			BAIDU_CLB_fillSlot(src[index]);
+			document.write('</div>');
+			src[index]=src[l-1];
+			l--;
+		}
+	}
+})();
+</script>			<div class="sidebar-box"><div class="title">联系我们</div>
+<div class="contacts">
+媒体合作：2568992895（QQ）<br />
+广告投放：2636661065（QQ）<br />
+联系邮箱：admin#itouxian.com（@替换#）
+<!-- <br />官方球群：196189628（满）234783289（满）<br />超级大群：65642748 ← 速度加入 -->
+</div></div>
+<div id="floatUpDiv"></div>
+<div id="floatDiv" class="slip-box">
+	<div class="partners"><script type="text/javascript">BAIDU_CLB_fillSlot("621226");</script></div>
+	<div class="partners"><script type="text/javascript">BAIDU_CLB_fillSlot("381419");</script></div>
+	<div class="back-htf">
+		<div class="back-htf-tip">如果赶脚「爱偷闲」还不错，那就玩命的推荐一下 www.iTouxian.com 吧，雷锋同志！</div>
+		<ul>
+			<li><a href="javascript:scroll(0,0)">顶部</a></li>
+			<li class="back-home"><a href="/">首页</a></li>
+			<li><a href="javascript:scroll(0,99999)">底部</a></li>
+		</ul>
+	</div>
+</div>
+<script language=javascript>
+	$(window).scroll(function(){
+		var floatUpDiv = $("#floatUpDiv");
+		var floatDiv = $("#floatDiv");
+		var footDiv = $("#itouxian-footer-holder");
+	
+		if((floatUpDiv.offset().top + floatUpDiv.height() + floatDiv.height()) < ($(document).scrollTop() + $(window).height())) {
+			floatDiv.fadeIn();
+		}
+		else {
+			floatDiv.fadeOut();
+		}
+	
+		if((floatUpDiv.offset().top + floatUpDiv.height() - $(document).scrollTop()) < 0) {
+		   floatDiv.css("position", "fixed");
+		   floatDiv.css("top", "0px");
+		   if(floatDiv.offset().top + floatDiv.height() > $(document).height() - footDiv.height() - 78) {
+				var top = $(document).height() - footDiv.height() - 78 - floatDiv.offset().top - floatDiv.height();
+				floatDiv.css("top", top + "px");
+
+			}
+		}
+		else {
+		   floatDiv.css("position", "");
+		   floatDiv.css("top", "");
+		}
+	});
+</script>		</div>
+	</div>
+</div>
+<div class="itouxian-footer-holder" id="itouxian-footer-holder">
+	<div class="footer">
+		<a href="/about" class="link1">关于</a><span>┊</span><a href="/help" class="link1">帮助</a><span>┊</span><a href="/contact" class="link1">联系</a><span>┊</span><a href="/service" class="link1">条款</a><span>┊</span><a href="/privacy" class="link1">隐私</a><span>┊</span><a href="/cooperation" class="link1">合作</a><span>┊</span>Powered by <a href="http://www.itouxian.com" class="link1">iTouxian.com</a>　&copy; 2012-2015 <a href="http://www.itouxian.com" class="link1">爱偷闲</a> 版权所有　<a href="http://www.miibeian.gov.cn" target="_blank" class="link1">鲁ICP备07012645号</a><br />
+		为了获得良好的浏览体验，爱偷闲建议大家使用<a href="http://www.google.cn/chrome" target="_blank" class="link1">Google Chrome</a>、<a href="http://www.firefox.com.cn" target="_blank" class="link1">Firefox</a>、IE7及以上版本的浏览器
+		<div class="height10"></div>
+		<a href="http://www.qdbeian.com/RecordDetail.aspx?WebID=18017" target="_blank"><img src="http://static.itouxian.com/images/qdbeian.gif" border="0" /></a>
+	</div>
+	<div class="statistics">
+		<script type="text/javascript"> var jiathis_config = { appkey:{"tsina":"4057402562","tqq":"801181703"} } </script>
+		<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js?uid=893353" charset="utf-8"></script>
+		<script src="http://s20.cnzz.com/stat.php?id=3993141&web_id=3993141" language="JavaScript"></script>
+		<script type="text/javascript">
+			var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+			document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F98e245e266b7bffeebe8a4f6de5bd11d' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+	</div>
+</div>
+</body>
+</html>

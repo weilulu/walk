@@ -1,0 +1,6 @@
+.classpath
+.project
+.settings/gradle/org.springsource.ide.eclipse.gradle.refresh.prefs
+.settings/org.eclipse.core.resources.prefs
+bin/com/walk/start/Application.class
+bin/
