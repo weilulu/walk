@@ -4,3 +4,4 @@
 .settings/org.eclipse.core.resources.prefs
 bin/com/walk/start/Application.class
 bin/
+.settings/gradle/org.springsource.ide.eclipse.gradle.core.prefs
