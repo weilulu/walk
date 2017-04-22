@@ -6,15 +6,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.walk.article.entity.ArticleInfo;
-import com.walk.common.page.util.Page;
+import com.walk.start.common.page.util.Page;
+import com.walk.start.domain.ArticleInfo;
 import com.walk.start.index.service.WalkIndexService;
 
 
 @RestController
 @RequestMapping(value="index")
 public class IndexController {
-
+	
 	@Autowired
 	private WalkIndexService walkIndexService;
 	
@@ -25,5 +25,5 @@ public class IndexController {
 		model.addAttribute("page",page);
 		return mv;
 	}
-	
+
 }
