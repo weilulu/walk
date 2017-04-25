@@ -1,23 +1,17 @@
-package com.walk.common.page.util;
+package com.walk.start.common.page.util;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ·ÖÒ³²ÎÊı·â×°Àà.
  * 
  * 
  */
 public class PageRequest {
-	// µ±Ç°Ò³Ò³ºÅ
 	protected int pageNo = 1;
-	// Ã¿Ò³ÏÔÊ¾ÊıÁ¿
 	protected int pageSize = 10;
-	// ÅÅĞò×Ö¶Î
 	protected String orderBy = null;
-	// ÅÅĞò·½Ïò
 	protected String orderDir = null;
-	// ÊÇ·ñÄ¬ÈÏ¼ÆËã×Ü¼ÇÂ¼Êı
 	protected boolean countTotal = true;
 
 	public PageRequest() {
@@ -28,16 +22,10 @@ public class PageRequest {
 		this.pageSize = pageSize;
 	}
 
-	/**
-	 * »ñµÃµ±Ç°Ò³µÄÒ³ºÅ, ĞòºÅ´Ó1¿ªÊ¼, Ä¬ÈÏÎª1.
-	 */
 	public int getPageNo() {
 		return pageNo;
 	}
 
-	/**
-	 * ÉèÖÃµ±Ç°Ò³µÄÒ³ºÅ, ĞòºÅ´Ó1¿ªÊ¼, µÍÓÚ1Ê±×Ô¶¯µ÷ÕûÎª1.
-	 */
 	public void setPageNo(final int pageNo) {
 		this.pageNo = pageNo;
 
@@ -46,16 +34,10 @@ public class PageRequest {
 		}
 	}
 
-	/**
-	 * »ñµÃÃ¿Ò³µÄ¼ÇÂ¼ÊıÁ¿, Ä¬ÈÏÎª10.
-	 */
 	public int getPageSize() {
 		return pageSize;
 	}
 
-	/**
-	 * ÉèÖÃÃ¿Ò³µÄ¼ÇÂ¼ÊıÁ¿, µÍÓÚ1Ê±×Ô¶¯µ÷ÕûÎª1.
-	 */
 	public void setPageSize(final int pageSize) {
 		this.pageSize = pageSize;
 
@@ -64,44 +46,29 @@ public class PageRequest {
 		}
 	}
 
-	/**
-	 * »ñµÃÅÅĞò×Ö¶Î, ÎŞÄ¬ÈÏÖµ. ¶à¸öÅÅĞò×Ö¶ÎÊ±ÓÃ','·Ö¸ô.
-	 */
 	public String getOrderBy() {
 		return orderBy;
 	}
 
-	/**
-	 * ÉèÖÃÅÅĞò×Ö¶Î, ¶à¸öÅÅĞò×Ö¶ÎÊ±ÓÃ','·Ö¸ô.
-	 */
 	public void setOrderBy(final String orderBy) {
 		this.orderBy = orderBy;
 	}
 
-	/**
-	 * »ñµÃÅÅĞò·½Ïò, ÎŞÄ¬ÈÏÖµ.
-	 */
 	public String getOrderDir() {
 		return orderDir;
 	}
 
-	/**
-	 * ÉèÖÃÅÅĞò·½Ê½Ïò.
-	 * 
-	 * @param orderDir
-	 *            ¿ÉÑ¡ÖµÎªdesc»òasc,¶à¸öÅÅĞò×Ö¶ÎÊ±ÓÃ','·Ö¸ô.
-	 */
 	public void setOrderDir(final String orderDir) {
 		if (orderDir == null)
 			return;
 		String lowcaseOrderDir = orderDir.toLowerCase();
 
-		// ¼ì²éorder×Ö·û´®µÄºÏ·¨Öµ
+		// ï¿½ï¿½ï¿½orderï¿½Ö·ï¿½ÄºÏ·ï¿½Öµ
 		String[] orderDirs = lowcaseOrderDir.split(",");
 		for (String orderDirStr : orderDirs) {
 			if (!Sort.DESC.equals(orderDirStr) && !Sort.ASC.equals(orderDirStr)) {
-				throw new IllegalArgumentException("ÅÅĞò·½Ïò" + orderDirStr
-						+ "²»ÊÇºÏ·¨Öµ");
+				throw new IllegalArgumentException("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" + orderDirStr
+						+ "ï¿½ï¿½ï¿½ÇºÏ·ï¿½Öµ");
 			}
 		}
 
@@ -109,7 +76,7 @@ public class PageRequest {
 	}
 
 	/**
-	 * »ñµÃÅÅĞò²ÎÊı.
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	 */
 	public List<Sort> getSort() {
 		if (orderBy == null || orderBy.length() < 1)
@@ -117,7 +84,7 @@ public class PageRequest {
 		String[] orderBys = orderBy.split(",");
 		String[] orderDirs = orderDir.split(",");
 		if (orderDirs.length != orderBys.length)
-			throw new IllegalArgumentException("·ÖÒ³¶àÖØÅÅĞò²ÎÊıÖĞ,ÅÅĞò×Ö¶ÎÓëÅÅĞò·½ÏòµÄ¸öÊı²»ÏàµÈ");
+			throw new IllegalArgumentException("ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 
 		List<Sort> orders = new ArrayList<Sort>();
 		for (int i = 0; i < orderBys.length; i++) {
@@ -128,7 +95,7 @@ public class PageRequest {
 	}
 
 	/**
-	 * ÊÇ·ñÒÑÉèÖÃÅÅĞò×Ö¶Î,ÎŞÄ¬ÈÏÖµ.
+	 * ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½,ï¿½ï¿½Ä¬ï¿½ï¿½Öµ.
 	 */
 	public boolean isOrderBySetted() {
 		return (orderBy != null && orderBy.length() > 0 && orderDir != null && orderDir
@@ -136,21 +103,21 @@ public class PageRequest {
 	}
 
 	/**
-	 * ÊÇ·ñÄ¬ÈÏ¼ÆËã×Ü¼ÇÂ¼Êı.
+	 * ï¿½Ç·ï¿½Ä¬ï¿½Ï¼ï¿½ï¿½ï¿½ï¿½Ü¼ï¿½Â¼ï¿½ï¿½.
 	 */
 	public boolean isCountTotal() {
 		return countTotal;
 	}
 
 	/**
-	 * ÉèÖÃÊÇ·ñÄ¬ÈÏ¼ÆËã×Ü¼ÇÂ¼Êı.
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½Ä¬ï¿½Ï¼ï¿½ï¿½ï¿½ï¿½Ü¼ï¿½Â¼ï¿½ï¿½.
 	 */
 	public void setCountTotal(boolean countTotal) {
 		this.countTotal = countTotal;
 	}
 
 	/**
-	 * ¸ù¾İpageNoºÍpageSize¼ÆËãµ±Ç°Ò³µÚÒ»Ìõ¼ÇÂ¼ÔÚ×Ü½á¹û¼¯ÖĞµÄÎ»ÖÃ, ĞòºÅ´Ó0¿ªÊ¼.
+	 * ï¿½ï¿½ï¿½pageNoï¿½ï¿½pageSizeï¿½ï¿½ï¿½ãµ±Ç°Ò³ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Ü½ï¿½ï¿½ï¿½Ğµï¿½Î»ï¿½ï¿½, ï¿½ï¿½Å´ï¿½0ï¿½ï¿½Ê¼.
 	 */
 	public int getOffset() {
 		return ((pageNo - 1) * pageSize);
