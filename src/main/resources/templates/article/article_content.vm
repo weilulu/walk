@@ -66,8 +66,7 @@
               Google &gt; Material Design Lite &gt; How to install MDL
             </div>
             <h3>$!{article.title}</h3>
-              <p>$!{article.content}
-              </p>
+            <p>$!{article.content}</p>
           </div>
         </div>
         <footer class="demo-footer mdl-mini-footer">

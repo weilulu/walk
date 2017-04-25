@@ -10,7 +10,7 @@ import com.walk.article.entity.ArticleInfo;
 @Mapper
 public interface WalkIndexMapper {
 
-	@Select("select * from article_info")
+	@Select("select id,title,author,type,summary,post_time as postTime from article_info")
 	List<ArticleInfo> getArticleInfoList();
 	
 	/*@Select("select * from article_content where article_id=#{articleId}")

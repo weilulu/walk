@@ -259,3 +259,9 @@ html, body {
 .demo-footer .mdl-mini-footer--link-list a {
   font-size: 13px;
 }
+
+
+.mdl-components__link-image {
+	position: static;
+	width: 48px;
+}

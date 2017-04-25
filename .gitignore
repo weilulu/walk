@@ -5,3 +5,5 @@
 bin/com/walk/start/Application.class
 bin/
 .settings/gradle/org.springsource.ide.eclipse.gradle.core.prefs
+.settings/org.eclipse.jdt.core.prefs
+.settings/
