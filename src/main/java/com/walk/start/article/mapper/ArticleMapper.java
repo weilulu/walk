@@ -8,6 +8,6 @@ import com.walk.start.domain.ArticleInfo;
 @Mapper
 public interface ArticleMapper {
 
-	@Select("select * from article_content where article_id=#{articleId}")
+	@Select("select * from article_info where id=#{articleId}")
 	ArticleInfo getArticleById(int articleId);
 }

@@ -1,17 +1,12 @@
 
 spring:
-  velocity:
-    resourceLoaderPath: 'classpath:/templates/'
-    suffix: .vm
+  freemarker:
     cache: false
+    charset: UTF-8
     check-template-location: true
     content-type: text/html
-    charset: UTF-8
-    properties:
-      input:
-        encoding: UTF-8
-      output:
-       encoding: UTF-8
-
-
-
+    suffix: .ftl
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    template-loader-path: classpath:/templates/

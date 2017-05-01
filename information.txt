@@ -1,3 +1,10 @@
 A good website:
 
 http://www.gocalf.com/blog/
+
+A article about django:
+
+http://djangobook.py3k.cn
+
+about freemarker:
+http://www.zheng-hang.com/chm/freemarker2_3_24/
