@@ -63,28 +63,23 @@ public class PageRequest {
 			return;
 		String lowcaseOrderDir = orderDir.toLowerCase();
 
-		// ���order�ַ�ĺϷ�ֵ
 		String[] orderDirs = lowcaseOrderDir.split(",");
 		for (String orderDirStr : orderDirs) {
 			if (!Sort.DESC.equals(orderDirStr) && !Sort.ASC.equals(orderDirStr)) {
-				throw new IllegalArgumentException("������" + orderDirStr
-						+ "���ǺϷ�ֵ");
+				throw new IllegalArgumentException("param is illegal");
 			}
 		}
 
 		this.orderDir = lowcaseOrderDir;
 	}
 
-	/**
-	 * ����������.
-	 */
 	public List<Sort> getSort() {
 		if (orderBy == null || orderBy.length() < 1)
 			return null;
 		String[] orderBys = orderBy.split(",");
 		String[] orderDirs = orderDir.split(",");
 		if (orderDirs.length != orderBys.length)
-			throw new IllegalArgumentException("��ҳ�������������,�����ֶ���������ĸ������");
+			throw new IllegalArgumentException("exception....");
 
 		List<Sort> orders = new ArrayList<Sort>();
 		for (int i = 0; i < orderBys.length; i++) {
@@ -94,31 +89,19 @@ public class PageRequest {
 		return orders;
 	}
 
-	/**
-	 * �Ƿ������������ֶ�,��Ĭ��ֵ.
-	 */
 	public boolean isOrderBySetted() {
 		return (orderBy != null && orderBy.length() > 0 && orderDir != null && orderDir
 				.length() > 0);
 	}
 
-	/**
-	 * �Ƿ�Ĭ�ϼ����ܼ�¼��.
-	 */
 	public boolean isCountTotal() {
 		return countTotal;
 	}
 
-	/**
-	 * �����Ƿ�Ĭ�ϼ����ܼ�¼��.
-	 */
 	public void setCountTotal(boolean countTotal) {
 		this.countTotal = countTotal;
 	}
 
-	/**
-	 * ���pageNo��pageSize���㵱ǰҳ��һ����¼���ܽ���е�λ��, ��Ŵ�0��ʼ.
-	 */
 	public int getOffset() {
 		return ((pageNo - 1) * pageSize);
 	}

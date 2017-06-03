@@ -2,9 +2,6 @@ package com.walk.start.index.mapper;
 
 import java.util.List;
 
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-
 import com.walk.start.domain.ArticleInfo;
 
 @Mapper
