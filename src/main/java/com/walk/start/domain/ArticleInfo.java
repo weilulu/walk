@@ -4,7 +4,7 @@ public class ArticleInfo {
 
 	private int id;
 	private String title;
-	private int type;
+	private int category;
 	private String author;
 	private String summary;
 	private String content;
@@ -21,11 +21,11 @@ public class ArticleInfo {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public int getType() {
-		return type;
+	public int getCategory() {
+		return category;
 	}
-	public void setType(int type) {
-		this.type = type;
+	public void setCategory(int category) {
+		this.category = category;
 	}
 	public String getAuthor() {
 		return author;
