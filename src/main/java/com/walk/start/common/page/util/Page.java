@@ -3,17 +3,13 @@ package com.walk.start.common.page.util;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-/**
- * 分页.
- * 
- * 
- */
+
 public class Page <T> extends PageRequest implements Iterable<T> {
 
 	protected List<T> items = null;
 	protected long totalItems = -1;
 	
-	protected String temp = null; //存放一些页面需要的临时数据
+	protected String temp = null; 
 
 	public Page() {
 	}
@@ -26,66 +22,40 @@ public class Page <T> extends PageRequest implements Iterable<T> {
 		this.orderDir = request.orderDir;
 	}
 	
-	/**
-	 * 获得页内的记录列表.
-	 */
 	public List<T> getItems() {
 		return items;
 	}
 	
-	/**
-	 * 设置页内的记录列表.
-	 */
 	public void setItems(final List<T> items) {
 		this.items = items;
 	}
 	
-	/**
-	 * 获得总记录数, 默认值为-1.
-	 */
 	public long getTotalItems() {
 		return totalItems;
 	}
 
-	/**
-	 * 设置总记录数.
-	 */
 	public void setTotalItems(final long totalItems) {
 		this.totalItems = totalItems;
 	}
 	
-	/**
-	 * 实现Iterable接口, 可以for(Object item : page)遍历使用
-	 */
+	@Override
 	public Iterator<T> iterator() {
 		return items.iterator();
 	}
 	
-	/**
-	 * 根据pageSize与totalItems计算总页数.
-	 */
 	public int getTotalPages() {
 		return (int) Math.ceil((double) totalItems / (double) getPageSize());
 
 	}
 	
-	/**
-	 * 是否还有下一页.
-	 */
 	public boolean hasNextPage() {
 		return (getPageNo() + 1 <= getTotalPages());
 	}
 	
-	/**
-	 * 是否最后一页.
-	 */
 	public boolean isLastPage() {
 		return !hasNextPage();
 	}
 	
-	/**
-	 * 取得下页的页号, 序号从1开始. 当前页为尾页时仍返回尾页序号.
-	 */
 	public int getNextPage() {
 		if (hasNextPage()) {
 			return getPageNo() + 1;
@@ -94,23 +64,14 @@ public class Page <T> extends PageRequest implements Iterable<T> {
 		}
 	}
 
-	/**
-	 * 是否还有上一页.
-	 */
 	public boolean hasPrePage() {
 		return (getPageNo() > 1);
 	}
 
-	/**
-	 * 是否第一页.
-	 */
 	public boolean isFirstPage() {
 		return !hasPrePage();
 	}
 	
-	/**
-	 * 取得上页的页号, 序号从1开始. 当前页为首页时返回首页序号.
-	 */
 	public int getPrePage() {
 		if (hasPrePage()) {
 			return getPageNo() - 1;
@@ -119,13 +80,6 @@ public class Page <T> extends PageRequest implements Iterable<T> {
 		}
 	}
 	
-	/**
-	 * 计算以当前页为中心的页面列表,如"首页,23,24,25,26,27,末页"
-	 * 
-	 * @param count
-	 *            需要计算的列表大小
-	 * @return pageNo列表
-	 */
 	public List<Integer> getSlider(int count) {
 		int halfSize = count / 2;
 		int totalPage = getTotalPages();
