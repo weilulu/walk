@@ -1,5 +1,8 @@
 package com.walk.start.domain;
 
+import org.springframework.data.elasticsearch.annotations.Document;
+
+@Document(indexName = "article-index", type = "article_content")
 public class ArticleInfo {
 
 	private int id;

@@ -72,7 +72,7 @@
                             <li ><a href="http://www.gocalf.com/blog/categories.html">Categories</a></li>
                             <li ><a href="http://www.gocalf.com/blog/tags.html">Tags</a></li>
                             <li ><a href="http://www.gocalf.com/blog/archives.html">Archives</a></li>
-                            <li><form class="navbar-search" action="http://www.gocalf.com/blog/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                            <li><form class="navbar-search" action="/search/result" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                         </ul>
                     </div>
                 </div>

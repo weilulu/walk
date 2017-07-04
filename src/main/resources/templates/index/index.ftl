@@ -18,8 +18,7 @@
 <meta property="og:url" content="http://www.gocalf.com/blog" />
 <meta property="og:site_name" content="GoCalf Blog" />
 <meta property="og:article:author" content="Calf" />
-        <title>GoCalf Blog
-</title>
+        <title>WeiLu Blog</title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="http://www.gocalf.com/blog/theme/css/style.min.css?93135f3f">
@@ -58,11 +57,11 @@
                     <a class="brand" href="http://www.gocalf.com/blog/"><span class=site-name>GoCalf Blog</span></a>
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right top-menu">
-                            <li  class="active"><a href="http://www.gocalf.com/blog">Home</a></li>
-                            <li ><a href="http://www.gocalf.com/blog/about.html">About</a></li>
-                            <li ><a href="http://www.gocalf.com/blog/categories.html">Categories</a></li>
-                            <li ><a href="http://www.gocalf.com/blog/tags.html">Tags</a></li>
-                            <li ><a href="http://www.gocalf.com/blog/archives.html">Archives</a></li>
+                            <li  class="active"><a href="www.weilu.com/index/list">Home</a></li>
+                            <li ><a href="www.weilu.com/about">About</a></li>
+                            <li ><a href="www.weilu.com/categories">Categories</a></li>
+                            <li ><a href="www.weilu.com/tags">Tags</a></li>
+                            <li ><a href="www.weilu.com/archives">Archives</a></li>
                             <li><form class="navbar-search" action="http://www.gocalf.com/blog/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                         </ul>
                     </div>
@@ -85,7 +84,7 @@
             <h1 id="recent-posts">Recent Posts <a id="allposts" href="http://www.gocalf.com/blog/archives.html">all posts</a></h1>
             </header>
         <div class="recent-posts">
-        ${page.items?size}
+        
         <#if page.items?size gt 0 >
           <#list page.items as article >
             <article>

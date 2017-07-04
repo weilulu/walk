@@ -8,3 +8,9 @@ http://djangobook.py3k.cn
 
 about freemarker:
 http://www.zheng-hang.com/chm/freemarker2_3_24/
+
+
+mysql & elasticsearch domcument:
+http://www.cnblogs.com/mignet/p/MySQL_ElasticSearch_sync_By_logstash_jdbc.html
+http://blog.csdn.net/yeyuma/article/details/50240595#quote
+http://www.cnblogs.com/zhongshengzhen/p/elasticsearch_mysql.html
