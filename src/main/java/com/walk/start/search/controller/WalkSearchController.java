@@ -1,10 +1,9 @@
 package com.walk.start.search.controller;
 
-import java.util.List;
-
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,9 +22,10 @@ public class WalkSearchController {
 	@RequestMapping("result")
 	public ModelAndView result(Model model,HttpServletRequest request){
 		String q = request.getParameter("q");
-		List<ArticleInfo> page = searchService.searchArticle(q);
+		Page<ArticleInfo> page = searchService.searchArticle(q);
 		ModelAndView mv = new ModelAndView("search/list");
-		mv.addObject("page", page);
+		mv.addObject("page", page== null ? null : page.getContent());
+		mv.addObject("total",page == null ? 0 : page.getTotalPages());
 		return mv;
 	}
 }
