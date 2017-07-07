@@ -23,6 +23,7 @@ public class IndexController {
 		Page<ArticleInfo> page = walkIndexService.getArticleInfoList();
 		ModelAndView mv = new ModelAndView("index/index");
 		model.addAttribute("page",page);
+		mv.addObject("active", "0");
 		return mv;
 	}
 

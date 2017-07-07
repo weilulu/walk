@@ -9,7 +9,7 @@
         <meta name="copyright" content="WeiLu" />
 
         <link rel="author" href=https://plus.google.com/112983042847560253980/posts />
-        <meta name="twitter:creator" content="@calfzhou">
+        <meta name="twitter:creator" content="@weilu">
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
@@ -22,24 +22,12 @@
 <meta property="og:article:published_time" content="2011-01-07T09:11:00" />
 <meta property="" content="2011-01-07T09:11:00" />
 <meta name="twitter:title" content="About ">
-<meta name="twitter:description" content="WeiLu">
+<meta name="twitter:description" content="weilu">
 
-        <title>About WeiLu Blog
-</title>
+        <title>About WeiLu Blog</title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
-<link rel="stylesheet" href="http://www.gocalf.com/blog/theme/css/style.min.css?93135f3f">
-        <link rel="shortcut icon" href="http://www.gocalf.com/blog/theme/images/favicon.ico" type="image/x-icon" type="image/png" />
-        <link rel="icon" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-152x152.png" type="image/png" />
-        <link rel="apple-touch-icon" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon.png"  type="image/png" />
-        <link rel="apple-touch-icon" sizes="57x57" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-57x57.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-72x72.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-76x76.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-114x114.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-120x120.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-144x144.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-152x152.png" type="image/png" />
-        <link href="http://www.gocalf.com/blog/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="WeiLu - Atom Feed" />
+        <link rel="stylesheet" href="/css/style.css">
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -52,29 +40,7 @@
     </head>
     <body class="tex2jax_ignore">
         <div id="content-sans-footer">
-        <div class="navbar navbar-static-top">
-            <div class="navbar-inner">
-                <div class="container-fluid">
-                    <div class="span1"></div>
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="http://www.gocalf.com/blog/"><span class=site-name>WeiLu Blog</span></a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav pull-right top-menu">
-                            <li ><a href="http://www.gocalf.com/blog">Home</a></li>
-                            <li  class="active"><a href="http://www.gocalf.com/blog/about.html">About</a></li>
-                            <li ><a href="http://www.gocalf.com/blog/categories.html">Categories</a></li>
-                            <li ><a href="http://www.gocalf.com/blog/tags.html">Tags</a></li>
-                            <li ><a href="http://www.gocalf.com/blog/archives.html">Archives</a></li>
-                            <li><form class="navbar-search" action="http://www.gocalf.com/blog/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+ <#include "/common/head.ftl">
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span1"></div>
@@ -137,7 +103,7 @@
     <i class="fa fa-github sidebar-social-links"></i></a>
     <a href="https://www.facebook.com/calfzhou" title="My Facebook Profile" class="sidebar-social-links" target="_blank">
     <i class="fa fa-facebook sidebar-social-links"></i></a>
-    <a href="https://twitter.com/calfzhou" title="My Twitter Profile" class="sidebar-social-links" target="_blank">
+    <a href="https://twitter.com/weilu" title="My Twitter Profile" class="sidebar-social-links" target="_blank">
     <i class="fa fa-twitter sidebar-social-links"></i></a>
         </div>
         </section>
@@ -150,13 +116,9 @@
         <div id="push"></div>
     </div>
 <footer>
-<div id="footer">
-    <ul class="footer-content">
-        <li class="elegant-subtitle"><span class="site-name">GoCalf Blog</span> - 1/100 ALGO&amp;MATH; 1/100 IT&amp;GAME; 1/100 INFO&amp;SHARING; 1/100 WHO KNOWS.</li>
-        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
-    </ul>
-</div>
-</footer>            <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<#include "/common/footer.ftl">
+</footer>
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
         <script>
             function validateForm(query)
             {

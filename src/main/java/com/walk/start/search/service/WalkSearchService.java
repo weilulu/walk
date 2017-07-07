@@ -19,13 +19,12 @@ import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.stereotype.Service;
 
 import com.walk.start.domain.ArticleInfo;
-import com.walk.start.search.repository.WalkRepository;
 
 @Service
 public class WalkSearchService {
 
-	@Autowired
-	private WalkRepository walkRepository;
+	//@Autowired
+	//private WalkRepository walkRepository;
 
 	@Autowired
 	private ElasticsearchTemplate elasticsearchTemplate;
@@ -39,6 +38,7 @@ public class WalkSearchService {
 				.build();
 		return elasticsearchTemplate.queryForPage(searchQuery, ArticleInfo.class, new SearchResultMapper() {
 
+			@SuppressWarnings("unchecked")
 			@Override
 			public <T> Page<T> mapResults(SearchResponse response, Class<T> clazz,
 					org.springframework.data.domain.Pageable pageable) {
@@ -64,30 +64,6 @@ public class WalkSearchService {
 						articleList.add(info);
 					}
 					return new PageImpl<T>((List<T>)articleList);}
-
-			/*@Override
-			public <T> FacetedPage<T> mapResults(SearchResponse response, Class<T> clazz, Pageable pageable) {
-				long total = response.getHits().getTotalHits();
-				if (total <= 0) {
-					return null;
-				}
-				for (SearchHit hit : response.getHits()) {
-					ArticleInfo info = new ArticleInfo();
-					Map<String, Object> source = hit.getSource();
-					Map<String, HighlightField> highField = hit.getHighlightFields();
-					if (highField.get("title") != null) {
-						info.setTitle(highField.get("title").fragments()[0].toString());
-					} else {
-						info.setTitle(source.get("title").toString());
-					}
-					if(highField.get("content") != null){
-						info.setContent(highField.get("content").fragments()[0].toString());
-					}else{
-						info.setContent(source.get("content").toString());
-					}
-				}
-				return new FacetedPage<T>((List<T>)articleList);
-			}*/
 
 		});
 		

@@ -11,6 +11,7 @@ public class AboutController {
 	@RequestMapping("")
 	public ModelAndView about(){
 		ModelAndView mv = new ModelAndView("about/me");
+		mv.addObject("active", "1");
 		return mv;
 	}
 }

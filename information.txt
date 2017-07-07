@@ -8,6 +8,8 @@ http://djangobook.py3k.cn
 
 about freemarker:
 http://www.zheng-hang.com/chm/freemarker2_3_24/
+с╒нд╟Ф:
+http://freemarker.org/docs/index.html
 
 
 mysql & elasticsearch domcument:

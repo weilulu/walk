@@ -24,6 +24,7 @@ public class ArticleController {
 		}
 		ArticleInfo article = articleService.getArticleById(id);
 		model.addAttribute("article",article);
+		model.addAttribute("active", "1");
 		return new ModelAndView("article/content");
 	}
 }

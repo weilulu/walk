@@ -55,29 +55,7 @@
     </head>
     <body class="tex2jax_ignore">
         <div id="content-sans-footer">
-        <div class="navbar navbar-static-top">
-            <div class="navbar-inner">
-                <div class="container-fluid">
-                    <div class="span1"></div>
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="http://www.gocalf.com/blog/"><span class=site-name>GoCalf Blog</span></a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav pull-right top-menu">
-                            <li ><a href="localhost:8080/index/list">Home</a></li>
-                            <li ><a href="http://www.gocalf.com/blog/about.html">About</a></li>
-                            <li ><a href="http://www.gocalf.com/blog/categories.html">Categories</a></li>
-                            <li ><a href="http://www.gocalf.com/blog/tags.html">Tags</a></li>
-                            <li ><a href="http://www.gocalf.com/blog/archives.html">Archives</a></li>
-                            <li><form class="navbar-search" action="/search/result" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <#include "/common/head.ftl">
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span1"></div>
@@ -117,12 +95,7 @@
         <div id="push"></div>
     </div>
 <footer>
-<div id="footer">
-    <ul class="footer-content">
-        <li class="elegant-subtitle"><span class="site-name">GoCalf Blog</span> - 1/100 ALGO&amp;MATH; 1/100 IT&amp;GAME; 1/100 INFO&amp;SHARING; 1/100 WHO KNOWS.</li>
-        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
-    </ul>
-</div>
+<#include "/common/footer.ftl">
 </footer> 
 
 
