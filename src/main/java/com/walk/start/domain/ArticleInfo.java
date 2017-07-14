@@ -2,12 +2,12 @@ package com.walk.start.domain;
 
 import org.springframework.data.elasticsearch.annotations.Document;
 
-@Document(indexName = "article-index", type = "article_content")
+@Document(indexName = "article_index", type = "article_content")
 public class ArticleInfo {
 
 	private int id;
 	private String title;
-	private int category;
+	//private int category;
 	private String author;
 	private String summary;
 	private String content;
@@ -24,12 +24,12 @@ public class ArticleInfo {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public int getCategory() {
+	/*public int getCategory() {
 		return category;
 	}
 	public void setCategory(int category) {
 		this.category = category;
-	}
+	}*/
 	public String getAuthor() {
 		return author;
 	}
