@@ -60,7 +60,7 @@
             </article>
           </#list>
         <#else>
-          文章还同写好
+          文章还没写好
         </#if>
               </div>
         </div>
