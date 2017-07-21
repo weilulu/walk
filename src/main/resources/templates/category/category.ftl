@@ -4,14 +4,6 @@
         <meta charset="utf-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Calf" />
-        <meta name="copyright" content="Calf" />
-
-        <link rel="author" href=https://plus.google.com/112983042847560253980/posts />
-        <meta name="twitter:creator" content="@weilu" />
-        <meta property="og:type" content="article" />
-        <meta name="twitter:card" content="summary" />
-
         <title>WeiLu Blog</title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -45,24 +37,25 @@
         <div class="accordion" id="accordion2">
             <div class="accordion-group">
                <#if categories?size gt 0>
-                 <#list categories as category>
+                 <#list categories?keys as name>
                 	<div class="accordion-heading">
-                     <a id="showArtileId" name='${category.name}' class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#${category.name}" onclick="getArticleInfo('${category.name}',this)">
-                        ${category.name}<span>${category.counts}</span>
+                     <a id="showArtileId" name='${name}' class="accordion-toggle list-of-categories" data-toggle="collapse" data-parent="#accordion2" href="#${name}">
+                        ${name}
                      </a>
                     </div>    
-                 </#list>
-               </#if>
-                <!--
-                <div id="Life" class="accordion-body collapse">
+                
+                
+                <div id="${name}" class="accordion-body collapse">
                     <div class="accordion-inner">
                         <ul class="list-articles-category">
-                            <li><time pubdate="pubdate" datetime="2014-08-28T17:15:00">2014-08-28</time><a href="http://www.gocalf.com/blog/self-descriptive-sentence.html">自描述语句  </a></li>
-                            <li><time pubdate="pubdate" datetime="2012-04-17T15:09:00">2012-04-17</time><a href="http://www.gocalf.com/blog/topn-of-massive-data.html">从大量整数中选取最小/大的若干个  </a></li>
+                           <#list categories["${name}"] as article>
+                            <li><time pubdate="pubdate" datetime="${article.createTime}">${article.createTime}</time><a href="/article/readArticle/${article.articleId}">${article.title}</a></li>
+                           </#list> 
                         </ul>
                     </div>
                 </div>
-                -->
+                 </#list>
+               </#if>
             </div>
         </div>
     </div>

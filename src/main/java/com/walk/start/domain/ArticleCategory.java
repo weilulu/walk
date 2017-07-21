@@ -5,7 +5,8 @@ public class ArticleCategory {
 	private int id;
 	private int articleId;
 	private String name;
-	private int counts;
+	private String createTime;
+	private String title;
 	
 	public int getId() {
 		return id;
@@ -25,12 +26,19 @@ public class ArticleCategory {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getCounts() {
-		return counts;
+	public String getCreateTime() {
+		return createTime;
 	}
-	public void setCounts(int counts) {
-		this.counts = counts;
+	public void setCreateTime(String createTime) {
+		this.createTime = createTime;
 	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	
 	
 	
 }

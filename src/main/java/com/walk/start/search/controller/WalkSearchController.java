@@ -26,6 +26,7 @@ public class WalkSearchController {
 		ModelAndView mv = new ModelAndView("search/list");
 		mv.addObject("page", page== null ? null : page.getContent());
 		mv.addObject("total",page == null ? 0 : page.getTotalPages());
+		mv.addObject("active", "");
 		return mv;
 	}
 }

@@ -43,30 +43,24 @@
     <div class="row-fluid">
         <div class="span8 offset2">
             <header>
-            <h1 id="recent-posts">Recent Posts <a id="allposts" href="http://www.weilu.com/archives">all posts</a></h1>
+            <h1 id="recent-posts"><a id="allposts" href="http://www.weilu.com/archives"></a></h1>
             </header>
         <div class="recent-posts">
-        
         <#if page.items?size gt 0 >
           <#list page.items as article >
             <article>
                 ${article.title}
-                <#--<section>
-                    Category
-                <a href="http://www.gocalf.com/blog/categories.html#algorithm-ref">算法test</a>
-                <div class="recent-posts-time">
-                <time pubdate="pubdate" datetime="2014-08-28T17:15:00">${article.postTime}</time>
-                </div>
-                </section>-->
+              <a href="/article/readArticle/${article.id}">
                 <section>
-                    
                     ${article.summary}
                 </section>
+              </a>
                 <section>
-                <a href="/article/readArticle/${article.id}">Read More --></a>
                 </section>
             </article>
           </#list>
+        <#else>
+          文章还同写好
         </#if>
               </div>
         </div>

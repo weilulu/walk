@@ -1,5 +1,6 @@
 package com.walk.start.index.service;
 
+import java.util.Collections;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,10 +18,11 @@ public class WalkIndexService {
 	
 	public Page<ArticleInfo> getArticleInfoList(){
 		List<ArticleInfo> infoList = indexMapper.getArticleInfoList();
-		if(infoList == null || infoList.size() <= 0){
-			return null;
-		}
 		Page<ArticleInfo> page = new Page<ArticleInfo>();
+		if(infoList == null || infoList.size() <= 0){
+			page.setItems(Collections.emptyList());
+			return page;
+		}
 		page.setItems(infoList);
 		return page;
 	}
