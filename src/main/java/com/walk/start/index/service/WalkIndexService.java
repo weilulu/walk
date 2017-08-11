@@ -16,14 +16,22 @@ public class WalkIndexService {
 	@Autowired
 	private WalkIndexMapper indexMapper;
 	
-	public Page<ArticleInfo> getArticleInfoList(){
-		List<ArticleInfo> infoList = indexMapper.getArticleInfoList();
+	public Page<ArticleInfo> getArticleInfoList(int start){
+		//PageRequest pr = new PageRequest(start,10);
+		int offset = start;
+		if(start > 0){
+			offset = start * 8;
+		}
+		List<ArticleInfo> infoList = indexMapper.getArticleInfoList(offset);
+		long totalCount = indexMapper.getAllarticleCount();
 		Page<ArticleInfo> page = new Page<ArticleInfo>();
 		if(infoList == null || infoList.size() <= 0){
 			page.setItems(Collections.emptyList());
 			return page;
 		}
+		page.setTotalItems(totalCount);
 		page.setItems(infoList);
+		page.setPageNo(start);
 		return page;
 	}
 	

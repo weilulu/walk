@@ -49,7 +49,7 @@ public class Page <T> extends PageRequest implements Iterable<T> {
 	}
 	
 	public boolean hasNextPage() {
-		return (getPageNo() + 1 <= getTotalPages());
+		return (getPageNo() + 1 < getTotalPages());
 	}
 	
 	public boolean isLastPage() {

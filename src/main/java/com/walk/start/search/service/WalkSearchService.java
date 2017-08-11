@@ -1,6 +1,7 @@
 package com.walk.start.search.service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -45,6 +46,7 @@ public class WalkSearchService {
 				List<ArticleInfo> articleList = new ArrayList<>();
 				long total = response.getHits().getTotalHits();
 					if (total <= 0) {
+						
 						return null;
 					}
 					for (SearchHit hit : response.getHits()) {
@@ -63,7 +65,8 @@ public class WalkSearchService {
 						}
 						articleList.add(info);
 					}
-					return new PageImpl<T>((List<T>)articleList);}
+					return new PageImpl<T>((List<T>)articleList);
+			  }
 
 		});
 		

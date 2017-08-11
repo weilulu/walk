@@ -1,107 +1,89 @@
-
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8"> 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Calf" />
-        <meta name="copyright" content="Calf" />
+<html lang="en">
 
-        <link rel="author" href=https://plus.google.com/112983042847560253980/posts />
-        <meta name="twitter:creator" content="@calfzhou">
-        <meta property="og:type" content="article" />
-        <meta name="twitter:card" content="summary">
+<head>
 
-<meta name="keywords" content="Kindle, 数码电子, Kindle 4, unbrick, USB Net, Your Kindle Needs Repair, 修砖" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<meta property="og:title" content="Kindle4修砖记 "/>
-<meta property="og:url" content="http://www.gocalf.com/blog/fix-bricked-kindle4.html" />
-<meta property="og:description" content="入手一年的Kindle4突然变成砖头了，屏幕显示“Your Kindle Needs Repair”，花了大半个晚上的时间才修好它，简单记录一下。" />
-<meta property="og:site_name" content="GoCalf Blog" />
-<meta property="og:article:author" content="Calf" />
-<meta property="og:article:published_time" content="2013-07-29T10:13:00" />
-<meta property="" content="2013-07-29T10:13:00" />
-<meta name="twitter:title" content="Kindle4修砖记 ">
-<meta name="twitter:description" content="入手一年的Kindle4突然变成砖头了，屏幕显示“Your Kindle Needs Repair”，花了大半个晚上的时间才修好它，简单记录一下。">
-<meta property="og:image" content="http://www.gocalf.com/blog/images/2013/07/kindle_needs_repair.png" />
-<meta name="twitter:image" content="http://www.gocalf.com/blog/images/2013/07/kindle_needs_repair.png" >
+    <title>Clean Blog - Sample Post</title>
 
-        <title>Kindle4修砖记  · GoCalf Blog
-</title>
-        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
-<link rel="stylesheet" href="http://www.gocalf.com/blog/theme/css/style.min.css?93135f3f">
-        <link rel="shortcut icon" href="http://www.gocalf.com/blog/theme/images/favicon.ico" type="image/x-icon" type="image/png" />
-        <link rel="icon" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-152x152.png" type="image/png" />
-        <link rel="apple-touch-icon" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon.png"  type="image/png" />
-        <link rel="apple-touch-icon" sizes="57x57" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-57x57.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-72x72.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-76x76.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-114x114.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-120x120.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-144x144.png" type="image/png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="http://www.gocalf.com/blog/theme/images/apple-touch-icon-152x152.png" type="image/png" />
-        <link href="http://www.gocalf.com/blog/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="GoCalf Blog - Atom Feed" />
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-24210758-2', 'auto');
-    ga('send', 'pageview');
-</script>
-        <script src="http://code.jquery.com/jquery.min.js"></script>
-    </head>
-    <body class="tex2jax_ignore">
-        <div id="content-sans-footer">
-        <#include "/common/head.ftl">
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span1"></div>
-                <div class="span10">
-<article>
-<div class="row-fluid">
-    <header class="page-header span10 offset2">
-    <h1><a href="http://www.gocalf.com/blog/fix-bricked-kindle4.html">${article.title}</a></h1>
-    </header>
-</div>
+    <!-- Bootstrap Core CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<div class="row-fluid">
-    <div class="span2 table-of-content">
-        <nav>
-        <h4></h4>
-        <div class="contents topic" id="contents">
-<p class="topic-title first"></p>
+    <!-- Theme CSS -->
+    <link href="/css/clean-blog.min.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
+    <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-</div>
-        </nav>
-    </div>
-    <div class="span8 article-content">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-            
-            
-<p>${article.content}</p>
-</div>
+</head>
 
-        </div>
-</div>
-</article>
+<body>
+
+    <#include "/common/nav.ftl">
+    
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('/images/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Man must explore, and this is exploration at its greatest</h1>
+                        <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+                        <span class="meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</span>
+                    </div>
                 </div>
-                <div class="span1"></div>
             </div>
         </div>
-        <div id="push"></div>
-    </div>
-<footer>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+						${article.content}
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
 <#include "/common/footer.ftl">
-</footer> 
 
+    <!-- jQuery -->
+    <script src="/vendor/jquery/jquery.min.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
 
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/contact_me.js"></script>
 
-    </body>
-    <!-- Theme: Elegant built for Pelican
-    License : http://oncrashreboot.com/pelican-elegant -->
+    <!-- Theme JavaScript -->
+    <script src="/js/clean-blog.min.js"></script>
+    <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+</body>
+
 </html>

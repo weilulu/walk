@@ -1,5 +1,7 @@
 package com.walk.start.search.controller;
 
+import java.util.Collections;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +26,13 @@ public class WalkSearchController {
 		String q = request.getParameter("q");
 		Page<ArticleInfo> page = searchService.searchArticle(q);
 		ModelAndView mv = new ModelAndView("search/list");
-		mv.addObject("page", page== null ? null : page.getContent());
+		if(page == null){
+			com.walk.start.common.page.util.Page<ArticleInfo> p = new com.walk.start.common.page.util.Page<ArticleInfo>();
+			p.setItems(Collections.emptyList());
+			mv.addObject("page", p);
+		}else{
+			mv.addObject("page",page.getContent());
+		}
 		mv.addObject("total",page == null ? 0 : page.getTotalPages());
 		mv.addObject("active", "");
 		return mv;
