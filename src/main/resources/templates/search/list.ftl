@@ -54,7 +54,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <#if page.items?size gt 0 >
+              <#if page?size gt 0 >
                <#list page as article >
                 <div class="post-preview">
                     <a href="/article/readArticle/${article.id}">

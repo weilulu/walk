@@ -45,7 +45,7 @@ public class RedisConfig {
 		poolConfig.setTestOnReturn(testOnReturn);
 		
 		JedisShardInfo sharedInfo = new JedisShardInfo(host,port,timeout);
-		sharedInfo.setPassword(password);
+		//sharedInfo.setPassword(password);
 		List<JedisShardInfo> sharedList = new ArrayList<>();
 		sharedList.add(sharedInfo);
 		ShardedJedisPool jedisPool = new ShardedJedisPool(poolConfig,sharedList);

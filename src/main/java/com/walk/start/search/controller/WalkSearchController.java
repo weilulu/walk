@@ -27,9 +27,9 @@ public class WalkSearchController {
 		Page<ArticleInfo> page = searchService.searchArticle(q);
 		ModelAndView mv = new ModelAndView("search/list");
 		if(page == null){
-			com.walk.start.common.page.util.Page<ArticleInfo> p = new com.walk.start.common.page.util.Page<ArticleInfo>();
-			p.setItems(Collections.emptyList());
-			mv.addObject("page", p);
+			//com.walk.start.common.page.util.Page<ArticleInfo> p = new com.walk.start.common.page.util.Page<ArticleInfo>();
+			//p.setItems(Collections.emptyList());
+			mv.addObject("page", Collections.emptyList());
 		}else{
 			mv.addObject("page",page.getContent());
 		}
