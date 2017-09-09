@@ -1,5 +1,7 @@
 package com.walk.start.index.controller;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.elasticsearch.common.lang3.StringUtils;
@@ -38,6 +40,14 @@ public class IndexController {
 		model.addAttribute("page",page);
 		mv.addObject("active", "0");
 		mv.addObject("nextFlag", nextFlag);
+		return mv;
+	}
+	
+	@RequestMapping(value="test")
+	public ModelAndView test(Model model,HttpServletRequest request){
+		List<com.walk.start.mongo.entity.ArticleInfo> list = walkIndexService.queryAll();
+		ModelAndView mv = new ModelAndView("index/index");
+		model.addAttribute("page",list);
 		return mv;
 	}
 

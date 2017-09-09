@@ -9,12 +9,19 @@ import org.springframework.stereotype.Service;
 import com.walk.start.common.page.util.Page;
 import com.walk.start.domain.ArticleInfo;
 import com.walk.start.index.mapper.WalkIndexMapper;
+import com.walk.start.mongo.reponsitory.ArticleInfoReponsitory;
+import com.walk.start.mongo.reponsitory.ArticleTest;
 
 @Service
 public class WalkIndexService {
 
 	@Autowired
 	private WalkIndexMapper indexMapper;
+	
+	@Autowired
+	private ArticleInfoReponsitory articleInfoReponsitory;
+	@Autowired
+	private ArticleTest articleTest;
 	
 	public Page<ArticleInfo> getArticleInfoList(int start){
 		//PageRequest pr = new PageRequest(start,10);
@@ -39,4 +46,9 @@ public class WalkIndexService {
 		ArticleContent  content = indexMapper.getAticleContent(articleId);
 		return content;
 	}*/
+	
+	public List<com.walk.start.mongo.entity.ArticleInfo> queryAll(){
+		//return articleInfoReponsitory.queryAll("");
+		return articleTest.queryAll();
+	}
 }
